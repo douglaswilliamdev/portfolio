@@ -1,0 +1,25 @@
+Diferença de elementos Pais e Filhos: 
+
+<div> é o elemento pai pois está agrupando duas tags ancoras <a> 
+as tagas <a> são Tags filhas pois estão dentro do elemento <div> e é eles que queremos posicioar
+
+<div class="apresentacao__links">
+                <a href="https://www.instagram.com/morenoalvex/">Instagram</a> 
+                <a href="https://github.com/douglaswilliamdev">GitHub</a>
+            </div>
+
+.apresentacao__links {
+    display: flex; <-- colocar o display flex no elemnto Pai
+    
+} 
+
+No padding: Esse primeiro numero Sempre é na vertical e o segundo a horizontal
+
+.apresentacao__links__link {
+    background-color: #22D4FD; 
+    width: 280px; 
+    text-align: center; 
+    border-radius: 16px; 
+    font-size: 24px; 
+    padding: 21.5px 0;
+}
